@@ -1,0 +1,219 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+#navbar-top {
+    background-color: #082A4A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-top a i {
+    margin-right: 14px;
+}
+
+#navbar-top .nav-link {
+    padding: 0 8px;
+}
+
+.nav-link i {
+    font-size: 14px;
+}
+
+.collapse .nav-item {
+    padding: 8px 19.16px 8px 16px;
+}
+
+.btn-sectionone {
+    border-radius: 4px;
+    border: 1px solid #082A4A;
+    background: #2E82D0;
+    color: white;
+}
+
+#introduction {
+    padding-top: 235px;
+    padding-bottom: 235px;
+    background-image: url(intro.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sectiontwo {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+section h2 {
+    color: #082A4A;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+#sectiontwo p {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gx-4 h3 {
+    color: #082A4A;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.gx-4 p {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#services {
+    background-color: #EEF2F6;
+    padding-top: 95px;
+    padding-bottom: 111px;
+}
+
+.bg1 {
+    background: linear-gradient(90deg, #5A154A 0%, #922278 100%);
+}
+
+.services-block {
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.services-block h3 {
+    margin-top: 26px;
+    margin-bottom: 8px;
+}
+
+.bg2 {
+    background: linear-gradient(90deg, #A13172 0%, #C33E8B 100%);
+
+}
+
+.bg3 {
+    background: linear-gradient(90deg, #E73056 0%, #E95038 100%);
+}
+
+.bg4 {
+    background: linear-gradient(90deg, #F28A19 0%, #F9B107 100%);
+}
+
+.bg5 {
+    background: linear-gradient(90deg, #77AC43 0%, #94CA5F 100%);
+}
+
+.bg6 {
+    background: linear-gradient(90deg, #235683 0%, #048FA3 100%);
+}
+
+.bg7 {
+    background: linear-gradient(90deg, #48B2BC 0%, #95D0D3 100%);
+}
+
+.bg8 {
+    background: linear-gradient(90deg, #279A96 0%, #2EAEA9 100%);
+}
+
+.services-block h3,
+p {
+    color: white;
+}
+
+#mission {
+    padding-top: 100px;
+}
+
+#mission h1 {
+    padding-bottom: 35px;
+    color: #082A4A;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+h5 {
+    padding-bottom: 16px;
+}
+
+#feedback {
+    background-color:#EEF2F6;;
+    padding-top: 85px;
+}
+
+#feedback .form-control {
+    border: 1px solid #ACBAC8;
+    background-color: none;
+    border-radius: 0;
+    margin-bottom: 16px;
+}
+
+#feedback button.form-control {
+    border-radius: 4px;
+    border: 1px solid #2E82D0;
+    background: #48BEF1;
+    display: inline-block;
+    width: auto;
+}
+
+footer {
+    background: #082A4A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    position: relative;
+    margin-bottom: 39px;
+}
+
+footer h3:after {
+    position: absolute;
+    content: "";
+    background-color: #2E82D0;
+    left: 0;
+    bottom: -16px;
+    width: 37px;
+    height: 2px;
+}
+
+footer .nav-tabs .nav-link,
+footer .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+footer a{
+    text-decoration: none;
+    margin-right: 20px;
+}
